@@ -43,7 +43,7 @@ func getBullshitSentenceFromAPI(w http.ResponseWriter, r *http.Request) {
 	sentenceForUser := generateBullshit().prettyprint()
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(`{"bullshit": "` + sentenceForUser + `}`))
+	w.Write([]byte(`{"bullshit": "` + sentenceForUser + `"}`))
 }
 
 func main() {

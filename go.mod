@@ -1,4 +1,4 @@
-module go-bs
+module github.com/k0rventen/go-bs
 
 go 1.14
 
