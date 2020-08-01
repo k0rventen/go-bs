@@ -10,7 +10,8 @@ _src_
 ```
 git clone https://github.com/k0rventen/go-bs
 go get
-go run 
+go build
+./go-bs
 ```
 
 _docker_
@@ -21,7 +22,10 @@ docker build -t go-bs .
 docker run -p 8080:8080 go-bs
 ```
 
-then just `curl localhost:8080`.
+then just curl
+- `localhost:8080/sentence` for getting a bullshit sentence,
+- `localhost:8080/paragraph/<num>` for a paragraph of len num
+
 Voila.
 
 ## License

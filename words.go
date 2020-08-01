@@ -55,4 +55,8 @@ var words = map[string][]string{
 		"sources", "strategic theme areas", "supply chains", "synergy", "systems", "technologies", "technology",
 		"testing procedures", "total linkage", "users", "value", "vortals", "web-readiness", "web services", "fungibility",
 		"clouds", "nosql", "storage", "virtualization", "scrums", "sprints", "wins"},
+
+	"starts":    {"The goal is to ", "The aim is to ","Our vision is to "},
+	"ends":      {" now.", " in the near future."},
+	"separators": {" by ", " and " , " through ",", "},
 }
